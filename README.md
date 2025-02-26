@@ -23,5 +23,36 @@ Passos para Postar um Projeto no GitHub:
 4. Commit das alterações**: Faça um commit com `git commit -m "Mensagem do commit"`.
 5. Conectar ao repositório remoto no GitHub**: Use o comando `git remote add origin <URL-do-repositório>`.
 6. Enviar o projeto para o GitHub**: Envie os arquivos com `git push -u origin main` (ou `master`, dependendo da configuração).
- Fonte:
-- [GitHub Docs](https://docs.github.com/en/github)
+ Fonte:[GitHub Docs](https://docs.github.com/en/github)
+### Principais Funções do Git e GitHub:
+
+Git:
+  1. Controle de versão**: Rastrea e gerencia mudanças no código ao longo do tempo.
+  2. Branching e Merging**: Criação de ramos (branches) para desenvolver novas funcionalidades sem afetar o código principal e a fusão desses ramos (merge).
+  3. Commit**: Registra alterações no histórico de versões do código.
+  4. Histórico de mudanças**: Permite ver todas as alterações feitas no código e quem as fez.
+
+GitHub:
+  1. ospedagem de repositórios Git**: Armazenamento de projetos de software na nuvem.
+  2. Colaboração**: Facilita a colaboração de vários desenvolvedores, permitindo criação de issues, pull requests e revisões de código.
+  3. Controle de permissões**: Permite gerenciar quem tem acesso aos repositórios (públicos ou privados).
+  4. Integração com outras ferramentas**: Integrações para CI/CD, automações, deploy e mais.
+
+ Principais Recursos e Comandos:
+
+Git:
+  - `git init`: Inicializa um repositório Git local.
+  - `git add .`: Adiciona arquivos ao stage para o commit.
+  - `git commit -m "mensagem"`: Realiza um commit com uma mensagem.
+  - `git push`: Envia as alterações para o repositório remoto.
+  - `git pull`: Baixa e integra as mudanças do repositório remoto.
+  - `git branch`: Cria e lista branches.
+  - `git merge`: Mescla branches.
+
+- GitHub:
+  - Repositórios: Armazenamento de código e histórico de versões.
+  - Issues: Rastreamento de tarefas, bugs ou melhorias.
+  - Pull Requests: Solicitações de fusão de código, revisão e discussões.
+  - Actions: Automação de workflows para CI/CD (Integração Contínua/Entrega Contínua).
+  - GitHub Pages: Hospedagem de sites estáticos diretamente no GitHub.
+ Fonte:[GitHub Docs](https://docs.github.com/en/github)
