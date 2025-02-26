@@ -10,27 +10,27 @@ Principais Funções do Git e GitHub:
   4. Branching e Merging**: criar ramos para desenvolver novas funcionalidades e, em seguida, mesclar as alterações de volta à versão principal.
 
 GitHub: É uma plataforma online que hospeda repositórios Git, permitindo colaboração e controle de versões em projetos de software. Suas funções incluem:
-  1. Hospedar repositórios** Git online.
-  2. Facilitar a colaboração** entre desenvolvedores, com ferramentas como pull requests e issues.
-  3. Gerenciar permissões de acesso** a repositórios (públicos ou privados).
-  4. Documentação e integração** com outras ferramentas (CI/CD, automações, etc.).
+  1. Hospedar repositórios Git online.
+  2. Facilitar a colaboração entre desenvolvedores, com ferramentas como pull requests e issues.
+  3. Gerenciar permissões de acesso a repositórios (públicos ou privados).
+  4. Documentação e integração com outras ferramentas (CI/CD, automações, etc.).
 
 Passos para Postar um Projeto no GitHub:
 
-1. Criar um repositório**: Vá ao GitHub, clique em "New Repository" e preencha as informações básicas (nome, descrição, privacidade).
-2. Inicializar Git no projeto local**: No terminal, no diretório do seu projeto, use `git init` para iniciar o controle de versão.
-3. Adicionar arquivos ao repositório**: Utilize o comando `git add .` para adicionar todos os arquivos ao repositório local.
-4. Commit das alterações**: Faça um commit com `git commit -m "Mensagem do commit"`.
-5. Conectar ao repositório remoto no GitHub**: Use o comando `git remote add origin <URL-do-repositório>`.
-6. Enviar o projeto para o GitHub**: Envie os arquivos com `git push -u origin main` (ou `master`, dependendo da configuração).
+1. Criar um repositório: Vá ao GitHub, clique em "New Repository" e preencha as informações básicas (nome, descrição, privacidade).
+2. Inicializar Git no projeto local: No terminal, no diretório do seu projeto, use `git init` para iniciar o controle de versão.
+3. Adicionar arquivos ao repositório: Utilize o comando `git add .` para adicionar todos os arquivos ao repositório local.
+4. Commit das alterações: Faça um commit com `git commit -m "Mensagem do commit"`.
+5. Conectar ao repositório remoto no GitHub: Use o comando `git remote add origin <URL-do-repositório>`.
+6. Enviar o projeto para o GitHub: Envie os arquivos com `git push -u origin main` (ou `master`, dependendo da configuração).
  Fonte:[GitHub Docs](https://docs.github.com/en/github)
 ### Principais Funções do Git e GitHub:
 
 Git:
-  1. Controle de versão**: Rastrea e gerencia mudanças no código ao longo do tempo.
-  2. Branching e Merging**: Criação de ramos (branches) para desenvolver novas funcionalidades sem afetar o código principal e a fusão desses ramos (merge).
-  3. Commit**: Registra alterações no histórico de versões do código.
-  4. Histórico de mudanças**: Permite ver todas as alterações feitas no código e quem as fez.
+  1. Controle de versão: Rastrea e gerencia mudanças no código ao longo do tempo.
+  2. Branching e Mergin: Criação de ramos (branches) para desenvolver novas funcionalidades sem afetar o código principal e a fusão desses ramos (merge).
+  3. Commit: Registra alterações no histórico de versões do código.
+  4. Histórico de mudanças: Permite ver todas as alterações feitas no código e quem as fez.
 
 GitHub:
   1. ospedagem de repositórios Git**: Armazenamento de projetos de software na nuvem.
